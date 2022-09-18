@@ -3,8 +3,8 @@ define([], function () {
 
 	// WebAPI
 	configLocal.api = {
-		name: 'OHDSI',
-		url: '${WEBAPI_URL}'
+		name: 'Local',
+		url: 'http://localhost:8090/WebAPI/'
 	};
 
 	configLocal.cohortComparisonResultsEnabled = false;
